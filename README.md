@@ -88,13 +88,14 @@ Näkymä avautuu etusivun ”Apua”-napista. Se sisältää teksti- ja kuvamuot
 ![Näkymäkaavio](./images/näkymäsiirtymät.png)
 
 Näkymissä liikutaan yllä näkyvän näkymäkaavion mukaan.
+* * *
 
-Käyttäjäskenaario 2:
+Käyttäjäskenaario 2:  
 Käyttäjä haluaa etsiä tietoa teoksesta, joka on samassa huoneessa missä hän on. Etusivulla heti ensimmäinen nappi on "huoneen teokset", joka johtaa näkymään saman huoneen teoksista.
 MuNa lähettää tietoa saamistaan wifi-signaaleistaan palvelimelle, joka laskee niiden voimakkuuksien perusteella käyttäjän sijainnin. Siispä käyttäjän ei tarvitse valita huonetta, jossa hän on, vaan sovellus päivittää sen automaattisesti.
 Tästä valikosta käyttäjä valitsee teoksista haluamansa ja sovellus siirtyy teosnäkymään. Näin käyttäjä pääsee kahdella painalluksella etusivulta teoksen tietoihin käsiksi.
 Mahdollisena virheenä käyttäjä voi valita kaikki teokset tai kartan, mutta niidenkin avulla oikein navigoimalla pääsee helposti teosnäkymään.
 
-Käyttäjäskenaario 3:
+Käyttäjäskenaario 3:  
 Käyttäjä haluaa vaihtaa sovelluksen kielen. Jokaisessa näkymässä on selkeä kielipainike, jota painamalla nykyisen näkymän päälle ilmestyy lista valittavissa olevista kielistä. Lippua painamalla
 sovelluksen kieli vaihtuu valittuun kieleen ja kielilista häviää näkyvistä. Koska kielet ja painike ovat kuvia, valikko on helppo löytää ja käyttää, vaikka käyttäjä ei ymmärtäisi sovelluksen sillä hetkellä käytössä olevaa kieltä.
